@@ -11,3 +11,7 @@
         sh("echo ${word}")
     }
  }
+
+ def want(Map object) {
+    echo("${object.name} want to ${object.action}")
+ }
